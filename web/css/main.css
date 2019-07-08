@@ -1,0 +1,128 @@
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure {
+  background-color: rgba(0,0,0,0);
+  margin: 0;
+  padding: 0; }
+.clean {
+opacity: 0; }
+
+.jumbotron {
+  margin-top:25px;
+  background-color: #000;
+  /* opacity: 0.6; */
+  background-color: rgba(0,0,0,0.6);
+  /*margin: 0; */
+  padding: 0; }
+  .jumbotron .post-title {
+    font-size: 26px;
+    font-weight: bold; }
+  /*.jumbotron > hr {
+    background-color: #ffff;
+    height: 1px;
+    border: 3px #333 solid;
+    width: 300px;*/ 
+}
+.row {
+  padding: 50px 0; }
+  .row-centered {
+    text-align: center;
+    margin: 0; }
+
+#large-header {
+  background-size: 450px;
+  height: 300px;
+  margin: 0 0 100px 0;
+  padding: 0; }
+  #large-header img {
+    position: relative;
+    top: 30px;
+    width: 300px; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
+  opacity: 0.8; }
+
+html {
+  background: url(images/code.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.col-md-3 {
+  color:white;
+  background-color: #000000;
+  opacity: 0.6;
+  border-radius: 8px;
+}
+
+.rowm {
+  margin-top:25px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.elemnt_ {
+  margin-top:25%;
+  background: rgba(0, 0, 0, 0.6);
+  color:white;
+  text-align: center;
+}
+
+
+.elemnt {
+  margin-top:10%;
+  background: rgba(0, 0, 0, 0.6);
+  color:white;
+  text-align: center;
+  margin-bottom:5%;x
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.6);
+  color:white;
+}
+
+.ele_heading {
+ font-size: 25px;
+
+}
+
+.ele_text {
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.arduino42 {
+font-size: 0px;
+}
+
+.ndp  {
+  text-color: red;
+  display: none;  
+}
+.e-mail:before {
+	content: attr(data-website) "\0040" attr(data-user);
+        unicode-bidi: bidi-override;
+        direction: rtl;
+}

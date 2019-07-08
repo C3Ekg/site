@@ -1,0 +1,90 @@
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0; }
+
+body,
+.clean {
+opacity: 0; }
+
+.jumbotron {
+  margin-top:25px;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 0; }
+  .jumbotron .post-title {
+    font-size: 26px;
+    font-weight: bold; }
+  .jumbotron > hr {
+    /*background-color: #ffff;*/
+    height: 1px;
+    border: 3px #333 solid;
+    width: 300px; 
+}
+
+.row {
+  padding: 50px 0; }
+  .row-centered {
+    text-align: center;
+    margin: 0; }
+
+#large-header {
+  background-size: 450px;
+  height: 300px;
+  margin: 0 0 100px 0;
+  padding: 0; }
+  #large-header img {
+    position: relative;
+    top: 30px;
+    width: 300px; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px; }
+
+html {
+  background: url(images/code.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.col-md-3 {
+  color: white;
+  background-color: #000000;
+  opacity: 0.6;
+  border-radius: 8px;
+}
+
+.rowm {
+  margin-top:25px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.elemnt {
+  margin-top:25px;
+  background: rgba(0, 0, 0, 0.6);
+}
